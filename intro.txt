@@ -1,0 +1,34 @@
+Go Language
++++++++++++
+Created by Google in 2007
+Open source in 2009
+
+Why it is needed
+++++++++++++++++
+1. Go was designed to run on multiple cores and built to support concurrency.
+2. Concurrency in Go is cheap and easy.
+3. For Performant Applications.
+4. Running on scaled, distributed systems.
+
+Characterstics of Go
+
+Multithreading
++++++++++++++
+It allows to do multiple things at once without affecting any other task. 
+Each thread process one task and we can have multiple of them running in parallel.
+
+This makes application fast.
+
+Challenges of Multithreading
+++++++++++++++++++++++++++++
+Multiple users editing the same documents.
+Multiple users booking at the same time. 
+
+Concurrency --> dealing with lots of things at once.
++++++++++++
+
+Built-In Concurrency Mechanism                                No Built-In Concurreny Mechanism
+------------------------------                                --------------------------------
+C++,  JAVA,                -  Go                              Python,  Node JS
+Complex code
+Expensive and Slow
