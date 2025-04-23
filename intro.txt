@@ -3,6 +3,9 @@ Go Language
 Created by Google in 2007
 Open source in 2009
 
+
+Simple Automation application and Command line interface application for Devops and SRE
+
 Why it is needed
 ++++++++++++++++
 1. Go was designed to run on multiple cores and built to support concurrency.
@@ -11,6 +14,23 @@ Why it is needed
 4. Running on scaled, distributed systems.
 
 Characterstics of Go
+++++++++++++++++++++
+1. Simple and readable syntax of dynamically typed language like python.
+2. Efficiency and safety of a lower-level, statically typed language like C++.
+3. Simple Syntax: Easy to learn, read and write code.
+4. Fast build time, start up and run
+5. Requires fewer resources like CPU and RAM.
+
+
+Go -- Server-Side and Compile Language --> Compiles into single binary(machine code)
+++++++++++++++++++
+Microservices
+Web Applications
+Database Services
+
+main.go --> [] --> myapp.exe
+Consistent across different OS
+
 
 Multithreading
 +++++++++++++
@@ -32,3 +52,18 @@ Built-In Concurrency Mechanism                                No Built-In Concur
 C++,  JAVA,                -  Go                              Python,  Node JS
 Complex code
 Expensive and Slow
+
+
+Concepts
+++++++++
+Data Types -> Strings, Integers, Booleans, Arrays, Slices, Maps, Structs
+Variables and Constants
+Formatted Output
+User Input
+Pointers
+Scope Rules
+Loops
+If-else and Switch
+Functions
+Packages
+Goroutines
