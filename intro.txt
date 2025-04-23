@@ -67,3 +67,9 @@ If-else and Switch
 Functions
 Packages
 Goroutines
+
+GO Packages -> A packages is a collection of source files.
++++++++++++
+1. Go Programs are organized into packages.
+2. Go's standard library, provides different core packages for us to use.
+3. "fmt" (format packages) is one of these, which you can use by importing it.
